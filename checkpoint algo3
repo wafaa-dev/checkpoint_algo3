@@ -1,0 +1,31 @@
+Function prod_scalair (v1,v2 :array ; i,j:integer)
+BEGIN
+ P_scal=0 
+ for j=1 ,j=3 j++ do
+ { 
+      P_scal=P_scal+ P_scal[j]
+ }
+ 
+ for i=0 , i<3 ,i++ do
+ {
+ P-scal[j]=v1[i]*v2[i]
+ }
+ end_for
+ end_for
+END
+
+ALGORITHM P_scalair
+VAR
+P_scal:integer ;
+
+
+BEGIN
+  
+read v1[3],v2[3]
+prod_scalair (v1 ,v2)
+Write(P_scal) 
+
+if P_scal=0 then
+write "the two vectors are orthogonal"
+END_IF
+END
